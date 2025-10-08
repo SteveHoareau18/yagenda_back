@@ -1,7 +1,7 @@
 {
-  "name": "NodeJS DevContainer",
+  "name": "YAgenda - Backend DevContainer",
   "dockerComposeFile": "./docker-compose.yml",
-  "service": "app",
+  "service": "back",
   "workspaceFolder": "/workspace",
   "forwardPorts": [8000, 5432],
   "remoteUser": "root"
