@@ -9,6 +9,9 @@ cd yagenda_back
 docker compose -f ./.devcontainer/docker-compose.yml up -d
 ```
 
+Le back se connecte généralement à http://localhost:8000/<br>
+La base de données à <a href="#">yagenda-db:5432</a>
+
 ## 🖥️ Développer le projet
 
 ### Prérequis et recommandation 
@@ -21,6 +24,8 @@ cd yagenda_back
 Builder et lancer le devcontainer.json situé dans le dossier ./.devcontainer
 
 ### Utiliser Git dans le container
+
+Modifier le fichier dev.git.sh avec vos informations puis lancer la commande:
 
 ```sh
 sh dev.git.sh
