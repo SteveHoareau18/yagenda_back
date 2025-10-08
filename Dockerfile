@@ -3,7 +3,7 @@ FROM node:18-slim AS build
 WORKDIR /workspace
 
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm install
 
 COPY . .
 
