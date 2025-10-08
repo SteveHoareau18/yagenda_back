@@ -11,7 +11,7 @@ FROM node:18-slim
 
 WORKDIR /workspace
 
-COPY --from=build /workspace /workspace
+COPY --from=build /workspace/yagenda_back /workspace
 
 EXPOSE 8000
 
